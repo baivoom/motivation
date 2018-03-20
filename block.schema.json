@@ -1,0 +1,16 @@
+{
+    "type":"object",
+    "required":[
+        "id", "routes"
+    ],
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "the id to identify this data block. this id will live through the data block's life time"
+        },
+        "routes": {
+            "type": "array",
+            "description": "the route path to track how this block being processed"
+        }
+    }
+}
